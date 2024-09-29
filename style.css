@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+/*Index*/
+
+.index {
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.asdindex{
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.asdindex h1{
+    color: #ffffff;
+}
+
+.asdindex p{
+    color: #ffffff;
+}
+aside h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+
+.RS {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Acercademtext {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Acercademimg {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 40px;
+}
+
+.acercap {
+    margin-top: 30px;
+    padding: 30px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.recibidor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.recibidor2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.imagen {
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.imagen2 {
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.imagen2 img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    width: 55%;
+    padding: 15px;
+}
+
+.texto h2 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+}
+
+.texto p {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+ 
+@media (max-width: 768px) {
+    body {
+        background: rgb(0, 0, 0);
+    }
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        gap: 0,5rem;
+        height: 200%;
+    }
+    
+    .recibidor {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    .recibidor2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 115vh;
+    }
+
+    .imagen, .texto {
+        width: 100%;
+    }
+
+    .imagen2, .texto {
+        width: 100%;
+    }
+
+    .imagen2 {
+        width: 100%;
+        height: 106%;
+    }
+    .texto h2 {
+        font-size: 100px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .botonindex a {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .botones {
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+
+    .botones2 {
+        width: 50px;
+        height: 30px; 
+        transition: transform 0.3s ease;
+    }
+
+    .botones2 img {
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+    
+    .botones2do {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .carteles {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .ilustraciones {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .libros {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 10rem;
+    }
+
+    #container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 50vh;
+        gap: 10px;
+        grid-template-areas: 
+        "principal";
+        height: auto;
+    }
+
+    .heacontacto {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        grid-area: cabeza;
+    }
+    .maicontacto {
+        margin-left: 1rem;
+        grid-area: principal;
+    }
+    .foocontacto {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        grid-area: pie;
+    }
+}
+
+
+/*general*/
+
+header{
+background-color: #ffffff;
+}
+
+main{
+    background-color: #ffffff;
+
+}
+
+aside{
+    background-color: #ffffff;
+}
+
+footer{
+    background-color: #ffffff;
+}
+
+header h1{
+
+    color: black;
+}
+
+
+@media (min-width: 600px) {
+
+#container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: auto 10fr 2fr;
+    height: 100vh;
+    gap: 10px;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "principal principal lado"
+    "pie pie pie"
+    ;
+}
+header {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-area: cabeza;
+}
+main {
+    margin-left: 1rem;
+    grid-area: principal;
+}
+aside {
+    margin-right: 1rem;
+    grid-area: lado;
+}
+footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    grid-area: pie;
+}
+h1{
+    font-size: 20px;
+}
+body {
+    background: rgb(255, 255, 255);
+}
+}
+
+ /*Carteles*/
+
+ .Bcartel {
+    background-color: #000000;
+ }
+.carteles {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cartel {
+    display: inline-block;
+    border-radius: 15px;
+    width: 440px;
+    height: 680px; 
+}
+
+.cartel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartel1 :hover {
+    content: url( img/carteles/texto1.jpg);
+}
+
+.cartel2 :hover {
+    content: url( img/carteles/texto2.jpg);
+}
+
+.cartel3 :hover {
+    content: url( img/carteles/texto3.jpg);
+}
+
+.cartel4 :hover {
+    content: url( img/carteles/texto4.jpg);
+}
+
+.cartel5 :hover {
+    content: url( img/carteles/texto5.jpg);
+}
+
+.cartel6 :hover {
+    content: url( img/carteles/texto6.jpg);
+}
+
+.cartel7 :hover {
+    content: url( img/carteles/texto7.jpg);
+}
+
+/*Ilustraciones*/
+
+.ilustraciones {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ilustracion {
+    display: inline-block;
+    border-radius: 15px;
+    width: 440px;
+    height: 680px; 
+    display: flex;
+    justify-content: center;
+}
+
+.ilustracion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Editorial*/
+
+.Beditorial {
+    background-color: #000000;
+}
+
+.libros {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.libro {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 550px;
+    height: 550px; 
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.libro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.libro1 :hover {
+    content: url( img/libros/librotext1.jpg);
+}
+
+
+.libro2 :hover {
+    content: url( img/libros/librotext2.jpg);
+}
+
+.libro3 :hover {
+    content: url( img/libros/librotext3.jpg);
+}
+
+.libro:hover {
+    transform: scale(102%); 
+}
+
+.libro:hover img {
+    transform: scale(102%);
+}
+
+/*Contacto*/
+
+#container2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    gap: 10px;
+    grid-template-areas: 
+    "cabeza"
+    "principal";
+}
+
+.heacontacto {
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-area: cabeza;
+}
+.maicontacto {
+    margin-left: 1rem;
+    grid-area: principal;
+}
+.foocontacto {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    grid-area: pie;
+}
+/*Botones*/
+
+.botones {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.botones2do {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.botones2 {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 550px;
+    height: 550px; 
+    transition: transform 0.3s ease;
+}
+
+.botones2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.botones2:hover {
+    transform: scale(105%); 
+}
+
+.botones2:hover img {
+    transform: scale(105%);
+}
+
+.boton1 img {
+    content: url(img/Ilustraciones.jpg);
+}
+
+.boton1:hover img {
+    content: url(img/ilustracionestexto.jpg);
+}
+
+.boton2 img {
+    content: url(img/Editorial.jpg);
+}
+
+.boton2:hover img {
+    content: url(img/editorialtexto.jpg);
+}
+
+.boton3 img {
+    content: url(img/cartel.jpg);
+}
+
+.boton3:hover img {
+    content: url(img/Carteltexto.jpg);
+}
+
+.botonindex {
+    margin-top: 20px;
+}
+
+.botonindex a {
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
